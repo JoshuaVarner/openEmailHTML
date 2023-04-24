@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .email-button:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+
+<a href="mailto:example@example.com?subject=Hello%20World" class="email-button">
+  Send Email
+</a>
+
+</body>
+</html>
